@@ -6,6 +6,8 @@ public class staticAndNonStaticMethods {
 		method1();
 		method2();
 //		method3();
+		staticAndNonStaticMethods obj =new staticAndNonStaticMethods();
+		obj.method3();
 	}
 	static void method1() {
 		System.out.println("static method1");
@@ -14,7 +16,7 @@ public class staticAndNonStaticMethods {
 		System.out.println("static method2");
 	}
     void method3() {
-		System.out.println(" nonstatic method");
+		System.out.println("nonstatic method");
 	}
 
 }
