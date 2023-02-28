@@ -1,5 +1,7 @@
 package javaproject;
 
+import com.mywebsite.functions.switchFunction;
+
 public class loops {
 	public static void main(String args[]) {
 //		for(int i=0;i<3;i++) {
@@ -52,6 +54,7 @@ public class loops {
 			System.out.println(i);
 			i++;
 		}
+		switchFunction ob=new switchFunction();
 	}
 
 }
