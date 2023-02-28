@@ -1,4 +1,4 @@
-package javaproject;
+package com.mywebsite.functions;
 
 public class switchFunction {
 	public static void main(String args[]) {
