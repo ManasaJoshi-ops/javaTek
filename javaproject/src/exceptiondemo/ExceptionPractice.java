@@ -13,7 +13,7 @@ public class ExceptionPractice {
     	try {
     		String s1=null;
     		System.out.println(s1.length());
-    	}catch(Exception e) {
+    	}catch(NullPointerException e) {
     		System.out.println("Enter the valid String .. "+e.getMessage());
     		System.out.println("Excption handled");
     		System.out.println("----------");
@@ -40,7 +40,7 @@ public class ExceptionPractice {
 			c=a/b;
 			d=a%b;
 			System.out.println(a+"/"+b+"="+c+" Reaminder="+d);
-		}catch(Exception e) {
+		}catch(ArithmeticException e) {
 			System.out.println("An Exception occured"+e.getMessage());
 			System.out.println("----------");
 		}
