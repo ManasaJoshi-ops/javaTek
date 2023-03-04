@@ -2,7 +2,7 @@ package oopConcepts;
 
 public class ConstructorChaining {
 	public static void main(String args[]) {
-		ChildClass cc=new ChildClass();
+		ChildClass cc=new ChildClass(5);
 		
 	}
 }
